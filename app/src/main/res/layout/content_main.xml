@@ -22,8 +22,8 @@
             android:inputType="textMultiLine"
             android:gravity="start|top"
             android:ems="10"
-            android:id="@+id/messageTextView"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="8dp"
+            android:id="@+id/messageTextField"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:hint="message:"/>
     <ImageButton
@@ -31,7 +31,7 @@
             android:layout_height="35dp" app:srcCompat="@drawable/ic_menu_send"
             android:id="@+id/sendMessageBtn"
             android:tint="@color/colorPrimary" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@+id/messageTextView"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@+id/messageTextField"
             android:layout_marginEnd="8dp" android:background="@android:color/transparent"
             android:onClick="sendMsgBtnClicked"/>
     <android.support.v7.widget.RecyclerView
@@ -40,6 +40,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/mainChannelView"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/messageTextView" android:layout_marginTop="8dp"
-            android:id="@+id/messageListView"/>
+            app:layout_constraintBottom_toTopOf="@+id/messageTextField" android:layout_marginTop="8dp"
+            android:id="@+id/messageListField"/>
 </android.support.constraint.ConstraintLayout>
