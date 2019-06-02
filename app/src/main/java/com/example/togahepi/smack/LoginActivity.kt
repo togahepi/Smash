@@ -12,8 +12,8 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
     }
 
-    fun loginCreatUserBtnClicked(view: View) {
-        val createUserIntent = Intent(this, CreatUserData :: class.java)
+    fun loginCreateUserBtnClicked(view: View) {
+        val createUserIntent = Intent(this, CreateUserData :: class.java)
         startActivity(createUserIntent)
     }
 

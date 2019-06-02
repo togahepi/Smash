@@ -4,11 +4,11 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class CreatUserData : AppCompatActivity() {
+class CreateUserData : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_creat_user_data)
+        setContentView(R.layout.activity_create_user_data)
     }
 
     fun generateUserAvatar(view: View) {

@@ -8,7 +8,7 @@
             android:label="@string/app_name"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".CreatUserData">
+        <activity android:name=".CreateUserData">
         </activity>
         <activity android:name=".LoginActivity">
         </activity>
