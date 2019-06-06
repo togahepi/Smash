@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.togahepi.smack.R
+import com.example.togahepi.smack.Services.AuthService
 import kotlinx.android.synthetic.main.activity_create_user_data.*
 import kotlin.random.Random
 
@@ -48,7 +49,11 @@ class CreateUserData : AppCompatActivity() {
     }
 
     fun createUserClicked(view: View) {
+        AuthService.registerUser(this,"j@j.com", "12345") { complete ->
+            if (complete) {
 
+            }
+        }
     }
 
 
