@@ -1,9 +1,10 @@
-package com.example.togahepi.smack
+package com.example.togahepi.smack.Controller
 
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.togahepi.smack.R
 import kotlinx.android.synthetic.main.activity_create_user_data.*
 import kotlin.random.Random
 

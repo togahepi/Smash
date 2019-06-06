@@ -1,9 +1,10 @@
-package com.example.togahepi.smack
+package com.example.togahepi.smack.Controller
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.togahepi.smack.R
 
 class LoginActivity : AppCompatActivity() {
 
@@ -13,7 +14,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun loginCreateUserBtnClicked(view: View) {
-        val createUserIntent = Intent(this, CreateUserData :: class.java)
+        val createUserIntent = Intent(this, CreateUserData:: class.java)
         startActivity(createUserIntent)
     }
 
